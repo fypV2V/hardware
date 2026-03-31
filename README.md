@@ -88,9 +88,7 @@ The Arduino prints a CSV line every 200 ms over the serial port. This data is 
 
 
 
-## Conclusion
 
-This hardware setup provides a robust, low‑cost platform for real‑time collision risk detection.
 
 ## IOT Device
 
@@ -118,3 +116,6 @@ In this case when both red LEDs are glowing, it indicates a high‑risk situatio
 ![All Green](images/bothRed.jpeg)
 
 
+## Conclusion
+
+This hardware setup provides a robust, low‑cost platform for real‑time collision risk detection with real life scenarios.
