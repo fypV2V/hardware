@@ -79,6 +79,7 @@ The Arduino prints a CSV line every 200 ms over the serial port. This data is 
 
 ## Conceptual Framework
 
+![Figure](images/conceptual_framework.png)
 
 
 
