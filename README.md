@@ -94,10 +94,24 @@ This hardware setup provides a robust, low‑cost platform for real‑time colli
 
 ## IOT Device
 
-**Case 1 : Both LEDs are Green**:
+**Case 1 : Both LEDs are Green**
 In this case where both green LEDs are illuminated, indicating that the system is in a safe state (riskLevel = 0). This occurs when no vehicle is detected by either ultrasonic sensor; the red LEDs and buzzers remain off, and the system is ready to monitor for approaching vehicles.
 
 ![All Green](images/IOT_device.jpeg)
 
+
+**Case 2 : One of the LED is Red**
+In this case when only one red LED is lit, it indicates that a vehicle is detected on the opposite side, posing a medium risk to that side. The system uses the red LED on the side where a vehicle is not present to warn the driver that a vehicle is approaching from the other side, helping prevent collisions at intersections or blind spots. The buzzer on that side may also sound to draw attention.
+
+
+![All Green](images/red1.jpeg)
+![All Green](images/red2.jpeg)
+
+
+**Case 3 : Both LEDs are Red**
+
+In this case when both red LEDs are glowing, it indicates a high‑risk situation where vehicles are detected on both sides simultaneously, often with a small distance difference and high relative speed. This signals an imminent collision risk, prompting the system to activate both buzzers and alert drivers on both sides to take immediate evasive action. The green LEDs turn off, and the system treats this as the highest danger level (riskLevel = 2).
+
+![All Green](images/bothRed.jpeg)
 
 
