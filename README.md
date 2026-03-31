@@ -36,18 +36,18 @@ The system uses an Arduino Uno as the central controller, two ultrasonic sensors
 
 ## Wiring Summary
 
-| Component       | Pin (Arduino) | Notes                     |
-|-----------------|---------------|---------------------------|
-| Sensor A Trig   | 2             |                           |
-| Sensor A Echo   | 3             |                           |
-| Sensor B Trig   | 7             |                           |
-| Sensor B Echo   | 8             |                           |
-| Red LED A       | 4             | via 220 Ω resistor        |
-| Green LED A     | 5             | via 220 Ω resistor        |
-| Buzzer A        | 6             |                           |
-| Red LED B       | 9             | via 220 Ω resistor        |
-| Green LED B     | 10            | via 220 Ω resistor        |
-| Buzzer B        | 11            |                           |
+| Component       | Pin (Arduino) |
+|-----------------|---------------|
+| Sensor A Trig   | 2             |
+| Sensor A Echo   | 3             |
+| Sensor B Trig   | 7             |
+| Sensor B Echo   | 8             |
+| Red LED A       | 4             |
+| Green LED A     | 5             |
+| Buzzer A        | 6             |
+| Red LED B       | 9             |
+| Green LED B     | 10            |
+| Buzzer B        | 11            |
 
 *All GND lines are connected to Arduino GND.*
 
