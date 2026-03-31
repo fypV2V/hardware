@@ -65,9 +65,7 @@ The system uses an Arduino Uno as the central controller, two ultrasonic sensors
    Each HC‑SR04 emits an ultrasonic pulse and measures the echo time. The Arduino converts the time to distance (cm) using: distance = (duration * 0.034) / 2
 
 2. **Speed Calculation**:  
-Speed is computed from successive distance readings: speed = (previous_distance - current_distance) / time_interval
-
-A positive speed indicates the vehicle is approaching.
+Speed is computed from successive distance readings: speed = (previous_distance - current_distance) / time_interval. A positive speed indicates the vehicle is approaching.
 
 3. **Risk Level Determination**:
 - **High (2)**: Both sensors detect a vehicle **and** the average speed > 2 cm/s (to avoid noise) **and** the distance difference is < 20 cm.
