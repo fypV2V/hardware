@@ -91,3 +91,13 @@ The Arduino prints a CSV line every 200 ms over the serial port. This data is 
 ## Conclusion
 
 This hardware setup provides a robust, low‑cost platform for real‑time collision risk detection.
+
+## IOT Device
+
+1. **Case 1 : Both LEDs are Green**:
+In this case where both green LEDs are illuminated, indicating that the system is in a safe state (riskLevel = 0). This occurs when no vehicle is detected by either ultrasonic sensor; the red LEDs and buzzers remain off, and the system is ready to monitor for approaching vehicles.
+
+![All Green](images/IOT_device.jpeg)
+
+
+
