@@ -8,6 +8,9 @@ The system uses an Arduino Uno as the central controller, two ultrasonic sensors
 - **Role**: Main microcontroller. Reads sensor data, computes speed and risk level, and controls LEDs and buzzers.
 - **Features**: ATmega328P, 14 digital I/O pins, 6 analog inputs, 16 MHz clock.
 
+![Figure](images/arduino-uno.webp)
+
+
 ## 2. HC‑SR04 Ultrasonic Sensors (x2)
 - **Role**: Measure distance to vehicles in front of each sensor.
 - **Specifications**:
@@ -17,6 +20,9 @@ The system uses an Arduino Uno as the central controller, two ultrasonic sensors
 - **Connections**:
   - `Trig` and `Echo` pins connected to digital I/O pins on Arduino.
   - VCC (5V) and GND.
+
+![Figure](images/Ultrasonic_Sensor.webp)
+
 
 ## 3. LEDs (Red & Green, x2 each)
 - **Role**: Provide visual warnings.
